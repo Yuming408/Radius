@@ -5,7 +5,7 @@
 2. As a preliminary data quality check, the missing rate for each feature are examined, here is a summary:
 
 | Feature       | fill rate    |
-| ------------- |-------------:|
+| ------------- |-------------|
 | address       | > 99%|
 |category_code  | > 99%|
 |city           | > 99%|
