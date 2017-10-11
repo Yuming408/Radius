@@ -77,8 +77,7 @@ I am interested in segment business size according to the headcount. Since most 
 I am interested in looking at the pivot table of revenue versus years in business. We want to understand what are the small business profiles look like. From the table, we can see for small business, the majorities are having business more than 10 years and revenue are less than 2.5 million, So there are some potential there to help them grow their business
 
 |time_in_business|	1-2 years|	3-5 years|	6-10 years|	10+ years|
-|revenue|
-|--------|--------|----------|--------|---------|
+|----------------|--------|----------|--------|---------|
 |Less Than $500,000|	1%|	1%|	4%|	28%|
 |$500,000 to 1 Million|	< 1%|	1%|	2%|	13%|
 |$1 to 2.5 Million|	< 1%|	1%|	2%|	15%|
