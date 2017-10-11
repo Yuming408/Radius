@@ -60,7 +60,16 @@
 
 5. Observation:
 * Duplicate: 
-There are some interesting observation about this data set. There are duplicate address(~108k) and phone number(~16k). For duplicate phone numbers, they seem come from different businesses in different location, further information is needed to validate the phone number. For duplicate address, they also are cooresponding to different business, it could be different business share the office space.
+There are some interesting observation about this data set. There are duplicate address(~108k) and phone number(~16k). For duplicate phone numbers, they seem come from different businesses in different location, possible reasons are some business changed their phone number but was not corretly reported. Further information is needed to validate the phone number. For duplicate address, they are cooresponding to different business, it could be different business share the same office space.
+
+Here are some examples:
+|address|	category_code|	city|	headcount|	name|	phone|	revenue|	state|	time_in_business|	zip|
+|-------|--------------|------|----------|------|------|---------|-------|------------------|----|
+|656 AVONMORE DR|	52200000|	FORT MILL|20 to 49|	Kusch's Automotive|	**(703) 234-4646**|	Less Than $500,000|SC|10+ years|29715|
+|49 KIHAPAI ST|42490000|KAILUA|	50 to 99|	Mohawk Lifts Of Pa Inc|	**(703) 234-4646**|	$5 to 10 Million|	HI|	6-10 years|96734|
+|**016 KEARNS RD**|	62130000|	SNOWMASS VILLAGE|	< 50|	Billings Fire Department|	9787745887|	Less Than $500,000|CO|10+ years|	81615|
+|**016 KEARNS RD**|	81000000|	SNOWMASS VILLAGE|	< 50|	Symes Saab|	None|	$500,000to 1 Million|	CO|10+ years|81615|	
+
 * Missing data:
 There are only 59% of the phone numbers are valid. To examine the reason,  fill rate of phone number group by headcount, revenue, state, and time_in_business were explored. The fill rate is about 58-59% for each of the group, so it seems the missing phone number is randomly distributed
 * Business size
@@ -73,7 +82,7 @@ I am interested in segment business size according to the headcount. Since most 
 |250 to 1000|     16148|
 |> 1000 |          5556|
 
-* business profile: revenue versus years in business
+* Business profile: revenue versus years in business
 I am interested in looking at the pivot table of revenue versus years in business. We want to understand what are the small business profiles look like. From the table, we can see for small business, the majorities are having business more than 10 years and revenue are less than 2.5 million, So there are some potential there to help them grow their business
 
 |time_in_business|	1-2 years|	3-5 years|	6-10 years|	10+ years|
@@ -90,8 +99,8 @@ I am interested in looking at the pivot table of revenue versus years in busines
 |Over $500 Million|	< 1%|	< 1%|	< 1%|	< 1%|
 |Over $1 Billion|	< 1%|	< 1%|	< 1%|	< 1%|
 
-* industry revenue:
-Small business owners might be curious to know where they are in the market place compare to their competitor. Next I am interested to see the revenue distribution for each sectors of industry. A heatmap is used to visulize this information.
+* Revenue in each industry sector:
+Small business owners might be curious to know where they are in the market place compare to their competitor. Next I am interested to see the revenue distribution for each sectors of industry. A heatmap is used to visulize this information using percent of business in each cell.
 - Industry sector can be represented as the first two digit of nacis code
 - Most of the business are in the sector of 44-45, 54, and 62, which are retail trade (44-45), Professional, Scientific, and Technical Services (54), Health Care and Social Assistance(62)
 - about 35% of business in each industry sector, their revenue are less than 500k. It is worth to look at the percentile in each industry sector, more information about the revenue as a number is needed to compute the percentile.
