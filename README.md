@@ -103,10 +103,10 @@ I am interested in looking at the pivot table of revenue versus years in busines
 
 * **Revenue in each industry sector**:
 Small business owners might be curious to know where they are in the market place compare to their competitor. Next I am interested to see the revenue distribution for each sectors of industry. A heatmap is used to visulize this information using percent of business in each cell.
-- Industry sector can be represented as the first two digit of nacis code
-- Most of the business are in the sector of 44-45, 54, and 62, which are retail trade (44-45), Professional, Scientific, and Technical Services (54), Health Care and Social Assistance(62)
-- about 35% of business in each industry sector, their revenue are less than 500k. It is worth to look at the percentile in each industry sector, more information about the revenue as a number is needed to compute the percentile.
-- Nacis code can be found in the website: https://www.naics.com/search/
+... Industry sector can be represented as the first two digit of nacis code
+... Most of the business are in the sector of 44-45, 54, and 62, which are retail trade (44-45), Professional, Scientific, and Technical Services (54), Health Care and Social Assistance(62)
+... About 35% of business in each industry sector, their revenue are less than 500k. It is worth to look at the percentile in each industry sector, more information about the revenue as a number is needed to compute the percentile.
+... Nacis code can be found in the website: https://www.naics.com/search/
 
 ![alt text](https://github.com/Yuming408/Radius/blob/master/Screen%20Shot%202017-10-10%20at%205.48.51%20PM.png "Industry versus revenue")
 
