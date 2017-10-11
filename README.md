@@ -78,7 +78,7 @@ I am interested in looking at the pivot table of revenue versus years in busines
 
 |time_in_business|	1-2 years|	3-5 years|	6-10 years|	10+ years|
 |revenue|
-|----------------------------------|
+|--------|--------|----------|--------|---------|
 |Less Than $500,000|	1%|	1%|	4%|	28%|
 |$500,000 to 1 Million|	< 1%|	1%|	2%|	13%|
 |$1 to 2.5 Million|	< 1%|	1%|	2%|	15%|
