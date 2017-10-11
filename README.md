@@ -63,6 +63,7 @@
 There are some interesting observation about this data set. There are duplicate address(~108k) and phone number(~16k). For duplicate phone numbers, they seem come from different businesses in different location, possible reasons are some business changed their phone number but was not corretly reported. Further information is needed to validate the phone number. For duplicate address, they are cooresponding to different business, it could be different business share the same office space.
 
 Here are some examples:
+
 |address|	category_code|	city|	headcount|	name|	phone|	revenue|	state|	time_in_business|	zip|
 |-------|--------------|------|----------|------|------|---------|-------|------------------|----|
 |656 AVONMORE DR|	52200000|	FORT MILL|20 to 49|	Kusch's Automotive|	**(703) 234-4646**|	Less Than $500,000|SC|10+ years|29715|
