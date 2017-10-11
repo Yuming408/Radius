@@ -97,7 +97,7 @@ Small business owners might be curious to know where they are in the market plac
 - about 35% of business in each industry sector, their revenue are less than 500k. It is worth to look at the percentile in each industry sector, more information about the revenue as a number is needed to compute the percentile.
 - Nacis code can be found in the website: https://www.naics.com/search/
 
-
+![alt text](https://github.com/Yuming408/Radius/blob/master/Screen%20Shot%202017-10-10%20at%205.48.51%20PM.png "Industry versus revenue")
 
 
 
