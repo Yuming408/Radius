@@ -3,6 +3,7 @@
 The data has 1 million rows and 10 columns. They represent company information such as: address, categorical code, city, headcount, name, phone, revenue, time in business, and zip code.
 
 2. As a preliminary data quality check, the missing rate for each feature are examined, here is a summary:
+Most of the features less than 10% of missing rate, only the phone number has a high missing rate:  about 40% of phone number is missing.
 
 | Feature       | fill rate    |
 | ------------- |-------------|
@@ -24,7 +25,7 @@ The data has 1 million rows and 10 columns. They represent company information s
 * city: city needs to contain letter
 * headcount: needs to contain number or letter
 * name: needs to contain letter or number
-* phone: needs to contain number
+* phone: needs to contain number and has length at least 10
 * revenue: needs to contain number or letter
 * state: needs to contain letter
 * time_in_business: needs to contain letter or number
