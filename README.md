@@ -1,6 +1,6 @@
 # Radius data challenge
-### Description of data:
-1. The data has 1 million rows and 10 columns. They represent company information such as: address, categorical code, city, headcount, name, phone, revenue, time in business, and zip code.
+1. Description of data:
+The data has 1 million rows and 10 columns. They represent company information such as: address, categorical code, city, headcount, name, phone, revenue, time in business, and zip code.
 
 2. As a preliminary data quality check, the missing rate for each feature are examined, here is a summary:
 
