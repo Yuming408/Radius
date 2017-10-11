@@ -57,7 +57,7 @@ Most of the features less than 10% of missing rate, only the phone number has a 
 |revenue        |14|
 |state          |55|
 |time_in_business |8|
-|zip               |24410 |
+|zip               |24k |
 
 5. Observation:
 * **Duplicate**:
