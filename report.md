@@ -106,7 +106,7 @@ Small business owners might be curious to know where they are in the market plac
 
    Industry sector can be represented as the first two digits of nacis code
 
-   Most of the business are in the sector of 44-45, 54, and 62, which are retail trade (44-45), Professional, Scientific,  and Technical Services (54), Health Care and Social Assistance(62)
+   Most of the business are in the sector of 44-45, 54, and 62, which are retail trade (44-45), Professional, Scientific,  and Technical Services (54), Health Care and Social Assistance(62), other services(81)
 
    About 35% of business in each industry sector, their revenue is less than 500k. It is worth to look at the percentile in each industry sector, more information about the revenue as a number is needed to compute the percentile.
 
@@ -116,7 +116,9 @@ Small business owners might be curious to know where they are in the market plac
 
 ![alt text](https://github.com/Yuming408/Radius/blob/master/Screen%20Shot%202017-10-10%20at%205.48.51%20PM.png "Industry versus revenue")
 
+* **Industry distribution in each state**:
+We want to know what is the industry components in each state, do the industry components vary a lot by state or they are similar. A heatmap is presented here to provide some insights, As we can see, the industry components seem to have similar distribution for all of the state. The top 4 industries are: Professional, Scientific, and Technical Services(54), Health Care and Social Assistance(62), retail and trade (44-45), and other services(81)
 
-
+![alt_text](https://github.com/Yuming408/Radius/blob/master/Screen%20Shot%202017-10-11%20at%209.21.11%20AM.png "revenue by state)
 
 
