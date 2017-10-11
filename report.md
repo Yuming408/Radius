@@ -79,10 +79,10 @@ I am interested in segment business size according to the headcount. Since most 
 
 |headcount| # of business|
 |----------|--------------|
-|< 50|           757578|
-|50 to 250|       93103|
-|250 to 1000|     16148|
-|> 1000 |          5556|
+|< 50|           758k|
+|50 to 250|       93k|
+|250 to 1000|     16k|
+|> 1000 |          5.6k|
 
 * **Business profile: revenue versus years in business**
 I am interested in looking at the pivot table of revenue versus years in business. We want to understand what are the small business profiles look like. From the table, we can see for small business, the majorities are having business more than 10 years and revenue are less than 2.5 million, so there is some potential there to help them grow their business
