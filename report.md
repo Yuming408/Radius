@@ -102,7 +102,7 @@ I am interested in looking at the pivot table of revenue versus years in busines
 |Over $1 Billion|	< 1%|	< 1%|	< 1%|	< 1%|
 
 * **Revenue in each industry sector**:
-Small business owners might be curious to know where they are in the market place compare to their competitor. Next I am interested to see the revenue distribution for each sectors of industry. A heatmap is used to visualize this information using percent of business in each cell.
+Small business owners might be curious to know where they are in the market place compare to their competitor. Next I am interested to see the revenue distribution for each sectors of industry. A heatmap is used to visualize this information using percent of business in each industry sector.
 
    Industry sector can be represented as the first two digits of nacis code
 
