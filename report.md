@@ -102,7 +102,7 @@ I am interested in looking at the pivot table of revenue versus years in busines
 |Over $1 Billion|	< 1%|	< 1%|	< 1%|	< 1%|
 
 * **Revenue in each industry sector**:
-Small business owners might be curious to know where they are in the market place compare to their competitor. Next I am interested to see the revenue distribution for each sectors of industry. A heatmap is used to visualize this information using percent of business in each industry sector.
+Small business owners might be curious to know where they are in the market place compare to their competitor. Next I am interested to see the revenue distribution for each sectors of industry. Two heatmap are used to visualize these information using both the absolute number of business in each cell and percent of business in each industry sector.
 
    Industry sector can be represented as the first two digits of nacis code
 
@@ -111,6 +111,8 @@ Small business owners might be curious to know where they are in the market plac
    About 35% of business in each industry sector, their revenue is less than 500k. It is worth to look at the percentile in each industry sector, more information about the revenue as a number is needed to compute the percentile.
 
    Nacis code can be found in the website: https://www.naics.com/search/
+   
+![alt_text](https://github.com/Yuming408/Radius/blob/master/Screen%20Shot%202017-10-10%20at%208.46.36%20PM.png "another pic")
 
 ![alt text](https://github.com/Yuming408/Radius/blob/master/Screen%20Shot%202017-10-10%20at%205.48.51%20PM.png "Industry versus revenue")
 
